@@ -16,7 +16,7 @@ public class Account {
 	public String generatoraccountNum() {
 		String generatoraccountNum = "";
 		Random random = new Random();
-		accountNum = random.nextInt(9000)+ 1000 +"-"+random.nextInt(10000) + "-"+ random.nextInt(10000);
+		generatoraccountNum = random.nextInt(9000)+ 1000 +"-"+random.nextInt(10000) + "-"+ random.nextInt(10000);
 		
 		return generatoraccountNum;
 	}
