@@ -1,4 +1,4 @@
-package bank2;
+package bank02;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
