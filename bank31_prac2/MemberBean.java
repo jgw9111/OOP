@@ -1,4 +1,4 @@
-package bank31;
+package bank31_prac2;
 
 public class MemberBean {
 	private String id,name,ssn,pass; // 멤버변수 = 인스턴스 변수 에 접근하지 못하게 하기위해 private 제어
@@ -31,10 +31,9 @@ public class MemberBean {
 		return pass;
 	} 
 	public String toString() {
-		return String.format( "[회원 정보] \n"
-							+ "I     D : %s \n"
+		return String.format( "I     D : %s \n"
 							+ "이      름 : %s \n"
 							+ "주민번호 : %s \n"
 							+ "비밀번호 : %s",id,name,ssn,pass);
-	};
+	}
 }

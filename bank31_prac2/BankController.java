@@ -1,8 +1,8 @@
-package bank31_prac;
+package bank31_prac2;
 
 import javax.swing.JOptionPane;
 
-public class Controller {
+public class BankController {
 	public static void main(String[] args) {
 		MemberBean member = null; 
 		AccountBean account = null;

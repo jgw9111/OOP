@@ -1,9 +1,15 @@
 package car;
 
 public class CarBean {
-	private String color,gearType;
+	private String brand,color,gearType;
 	private int door;
 	
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+	public String getBrand(){
+		return brand;
+	}
 	public void setColor(String color) {
 		this.color = color;
 	}
@@ -25,8 +31,9 @@ public class CarBean {
 	public String toString(String color,String gearType,int door) {
 		// TODO Auto-generated method stub
 		return String.format("[차 스펙] \n"
+				+ "BRAND : %s \n"
 				+ "COLOR : %s \n"
 				+ "GEAR TYPE : %s \n"
-				+ "DOOR : %s",color,gearType,door);
+				+ "DOOR : %s",brand,color,gearType,door);
 	}
 }
